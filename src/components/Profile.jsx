@@ -5,7 +5,7 @@ import ProfilePic from "../assets/profile-pic.jpg";
 export default function Profile() {
   return (
     <div className="flex justify-center items-center h-[90vh] px-4 bg-gray-50">
-      <div className="w-full max-w-sm h-[95%] bg-[#f2f2f2] border border-gray-400 rounded-sm shadow-md overflow-y-auto">
+      <div className="w-full max-w-sm h-full bg-[#f2f2f2] border border-gray-400 rounded-sm shadow-md overflow-y-auto">
         {/* Top Title Bar */}
         <div className="bg-white px-6 py-4 border-b border-gray-300">
           <h2 className="text-xl font-semibold text-gray-800">
@@ -50,7 +50,7 @@ export default function Profile() {
 
         <div
           className="border-y border-dashed border-gray-400 mt-3 w-full px-6 py-4"
-          style={{ height: "330px" }}
+          style={{ height: "300px" }}
         ></div>
       </div>
     </div>

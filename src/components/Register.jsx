@@ -14,7 +14,7 @@ export default function Register() {
 
   return (
     <div className="flex justify-center items-center h-[90vh] px-4 bg-gray-50">
-      <div className="w-full max-w-sm h-[97%] bg-[#f2f2f2] border border-gray-400 rounded-sm shadow-md p-6 flex flex-col">
+      <div className="w-full max-w-sm h-full bg-[#f2f2f2] border border-gray-400 rounded-sm shadow-md p-6 flex flex-col">
         <h2 className="text-xl font-semibold text-gray-800 mb-3">
           Create your PopX account
         </h2>

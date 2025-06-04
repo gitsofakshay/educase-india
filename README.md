@@ -1,12 +1,59 @@
-# React + Vite
+# 📱 Educase India UI Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a ReactJS-based mobile-responsive UI assignment built as part of the Educase India internship application. The project replicates a mobile app flow including user authentication, registration, and account settings with pixel-perfect attention to the provided Adobe XD design.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [https://educase-india-demo.netlify.app](https://educase-india-demo.netlify.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: React.js (Vite)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
+- **Deployment**: Netlify
+
+---
+
+## 📁 Project Structure
+
+```
+educase-india/
+├── public/
+│ └── educase-logo.png
+├── src/
+│ ├── assets/
+│ │ └── profile-pic.jpg
+│ ├── components/
+│ │ ├── Home.jsx
+│ │ ├── Login.jsx
+│ │ ├── Register.jsx
+│ │ └── Profile.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ ├── index.css
+│ └── styles.css
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 📦 Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/gitsofakshay/educase-india.git
+cd educase-india
+npm install
+npm run dev 
+```
+
+## 🙌 Author
+Akshay Raj Kushwaha

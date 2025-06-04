@@ -14,7 +14,7 @@ export default function Login() {
 
   return (
     <div className="flex justify-center items-center h-[90vh] px-4 bg-gray-50">
-      <div className="w-full max-w-sm h-[97%] bg-[#f2f2f2] border border-gray-400 rounded-sm shadow-md p-6 flex flex-col items-start overflow-y-auto">
+      <div className="w-full max-w-sm h-full bg-[#f2f2f2] border border-gray-400 rounded-sm shadow-md p-6 flex flex-col items-start overflow-y-auto">
         <h2 className="text-2xl font-semibold mb-2">Login to your account</h2>
         <p className="text-sm text-gray-600 mb-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
